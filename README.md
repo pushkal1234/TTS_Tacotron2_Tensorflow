@@ -1,5 +1,7 @@
 # TTS_Tacotron2_Tensorflow
 
+Text-to-Speech Recognition system using tacotron 2 architecture and Tensorflow Framework.
+
 I had trained the model on LJ Speech Dataset open source speech datasets.
 
 LJ Speech Dataset is recently widely used as a benchmark dataset in the TTS task because it is publicly available. It has 24 hours of reasonable quality samples.
