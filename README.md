@@ -28,11 +28,11 @@ Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 22050 H
 
 1) Download LJ Speech Dataset from the link mentioned above.
 
-2) Adjust hyper parameters in hyperparams.py. (If you want to do preprocessing, set prepro True`.
+2) Adjust hyper parameters in model_hyperparameters.py. (If you want to do preprocessing, set prepro True`.
 
-3) Run python train.py. (If you set prepro True, run python prepro.py first)
+3) Run python train_data.py. (If you set prepro True, run python prepro.py first)
 
-4) Run python eval.py regularly during training.
+4) Run python evaluation.py regularly during training.
 
 # File description
 
@@ -56,7 +56,7 @@ Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 22050 H
 
 # Sample Synthesis
 
-Run python synthesize.py and check the files in samples.
+Run python Model_Synthesis.py and check the files in samples.
 
 I had generated the samples for inference and testing after training it for 200k steps
 
