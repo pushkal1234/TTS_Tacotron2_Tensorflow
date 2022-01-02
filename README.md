@@ -32,8 +32,38 @@ Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 22050 H
 
 4) Run python eval.py regularly during training.
 
+# File description
+
+1) model_hyperparameters.py --> includes all hyper parameters that are needed.
+
+2) Model_synthesis.py --> creates sliced sound files from raw sound data, and constructs necessary information.
+  
+3) Data_preprocessing.py --> loads vocabulary, training/evaluation data.
+
+4) load_data_LJSpeech.py --> loads data and put them in queues so multiple mini-bach data are generated in parallel.
+
+5) utils.py --> has several custom operational functions.
+
+6) modules.py --> contains building blocks for encoding/decoding networks.
+
+7) networks.py --> has three core networks, that is, encoding, decoding, and postprocessing network.
+
+8) train_data.py --> is for training.
+
+9) evaluation.py --> is for sample synthesis.
+
 # Sample Synthesis
 
 Run python synthesize.py and check the files in samples.
 
 I had generated the samples for inference and testing after training it for 200k steps
+
+# Requirements
+
+1) NumPy >= 1.11.1
+ 
+2) TensorFlow == 1.2
+
+3) librosa
+
+4) tqdm
