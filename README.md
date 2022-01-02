@@ -30,7 +30,7 @@ Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 22050 H
 
 2) Adjust hyper parameters in model_hyperparameters.py. (If you want to do preprocessing, set prepro True`.
 
-3) Run python train_data.py. (If you set prepro True, run python prepro.py first)
+3) Run python train_data.py. (If you set prepro True, run python Data_preprocessing.py first)
 
 4) Run python evaluation.py regularly during training.
 
